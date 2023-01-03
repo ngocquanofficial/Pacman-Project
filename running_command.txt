@@ -1,0 +1,10 @@
+python pacman.py -p ReflexAgent --frameTime=0.0001 -n 100 
+
+python pacman.py -p ReflexAgent --frameTime=0.0001 -n 100 -g DirectionalGhost
+
+python pacman.py -p MinimaxAgent --frameTime=0.0001 -n 100 -a depth=4
+
+python pacman.py -p AlphaBetaAgent --frameTime=0.0001 -n 100 -a depth=4
+
+python pacman.py -p ExpectimaxAgent --frameTime=0.0001 -n 100 -depth=4
+
